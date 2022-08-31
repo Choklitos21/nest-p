@@ -1,12 +1,12 @@
 import { Injectable } from "@nestjs/common";
-import { HttpService } from "@nestjs/axios";
+/*import { HttpService } from "@nestjs/axios";*/
 
 import axios from 'axios'
 
 @Injectable()
 export class AppService {
-  constructor(private readonly httpService: HttpService) {
-  }
+  /*constructor(private readonly httpService: HttpService) {
+  }*/
 
   private _pet: []
   private _categories:[]
